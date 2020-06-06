@@ -1,0 +1,56 @@
+body {
+    background: #deebef;
+	color: #34495e;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 400;
+    line-height: 1.2;
+    overflow: hidden;
+}
+
+#resume {
+    width: 800px;
+    height: 500px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: fixed; 
+    top: 100px;
+    left: 30%;
+}
+
+#resume .shadow,
+#resume.shadow{
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+
+#resume .page{
+	background-color:sandybrown;
+}
+
+.cover {
+    text-align: center;
+}
+
+.cover .type {
+}
+
+.cover .title {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+
+.profile {
+    background-image: url('../images/profile.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
